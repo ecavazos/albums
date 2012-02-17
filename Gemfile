@@ -5,7 +5,7 @@ gem 'sqlite3'
 gem 'haml'
 gem 'jquery-rails'
 
-group :test do
+group :test, :development do
   gem 'rspec-rails'
   gem 'launchy'
   gem 'capybara', '1.0.0.rc1'
