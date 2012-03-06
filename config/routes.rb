@@ -1,5 +1,5 @@
 Albums::Application.routes.draw do
-  # resources :users
+  resources :users
 
   root :to => "welcome#index"
 end
